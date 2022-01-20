@@ -1,8 +1,8 @@
 blueprint:
   name: Z2M - Aqara Opple switch 4 buttons
-  description: 'Control anything you want with Aqara Opple switch 2 bands 4 buttons (WXCJKG12LM).'
+  description: Control anything you want with Aqara Opple switch 2 bands 4 buttons (WXCJKG12LM).
+  Each band button has single, double, triple, hold.
   domain: automation
-  source_url: https://github.com/dobriys/repo-github/blob/master/aqara_opple_4_button/aqara_opple_4_button.yaml
   input:
     switch:
       name: Aqara switch
@@ -13,13 +13,13 @@ blueprint:
           integration: mqtt
     button_1_single:
       name: Button 1 - simple click
-      description: Action to run on simple click of button 1
+      description: Action to run on triple click of button 1
       default: []
       selector:
         action: {}
     button_1_double:
       name: Button 1 - double click
-      description: Action to run on double click of button 1
+      description: Action to run on triple click of button 1
       default: []
       selector:
         action: {}
@@ -31,19 +31,19 @@ blueprint:
         action: {}
     button_1_hold:
       name: Button 1 - hold click
-      description: Action to run on hold click of button 1
+      description: Action to run on triple click of button 1
       default: []
       selector:
         action: {}
     button_2_single:
       name: Button 2 - single click
-      description: Action to run on single click of button 2
+      description: Action to run on triple click of button 2
       default: []
       selector:
         action: {}
     button_2_double:
       name: Button 2 - double click
-      description: Action to run on double click of button 2
+      description: Action to run on triple click of button 2
       default: []
       selector:
         action: {}
@@ -55,19 +55,19 @@ blueprint:
         action: {}
     button_2_hold:
       name: Button 2 - hold click
-      description: Action to run on hold click of button 2
+      description: Action to run on triple click of button 2
       default: []
       selector:
         action: {}
     button_3_single:
       name: Button 3 - simple click
-      description: Action to run on simple click of button 3
+      description: Action to run on triple click of button 3
       default: []
       selector:
         action: {}
     button_3_double:
       name: Button 3 - double click
-      description: Action to run on double click of button 3
+      description: Action to run on triple click of button 3
       default: []
       selector:
         action: {}
@@ -79,19 +79,19 @@ blueprint:
         action: {}
     button_3_hold:
       name: Button 3 - hold click
-      description: Action to run on hold click of button 3
+      description: Action to run on triple click of button 3
       default: []
       selector:
         action: {}
     button_4_single:
       name: Button 4 - single click
-      description: Action to run on single click of button 4
+      description: Action to run on triple click of button 4
       default: []
       selector:
         action: {}
     button_4_double:
       name: Button 4 - double click
-      description: Action to run on double click of button 4
+      description: Action to run on triple click of button 4
       default: []
       selector:
         action: {}
@@ -103,10 +103,11 @@ blueprint:
         action: {}
     button_4_hold:
       name: Button 4 - hold click
-      description: Action to run on hold click of button 4
+      description: Action to run on triple click of button 4
       default: []
       selector:
         action: {}
+  source_url: https://github.com/dobriys/repo-github/blob/master/aqara_opple_4_button/aqara_opple_4_button.yaml
 mode: restart
 max_exceeded: silent
 trigger:
