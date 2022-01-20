@@ -1,7 +1,6 @@
 blueprint:
   name: Z2M - Aqara Opple switch 4 buttons
   description: Control anything you want with Aqara Opple switch 2 bands 4 buttons (WXCJKG12LM).
-  Each band button has single, double, triple, hold.
   domain: automation
   input:
     switch:
