@@ -200,7 +200,7 @@ blueprint:
       default: []
       selector:
         action: {}
-  source_url: https://community.home-assistant.io/t/z2m-xiaomi-cube-controller/263006
+  source_url: https://github.com/dobriys/repo-github/blob/master/xiaomi_cube/xiaomi_cube.yaml
 mode: queued
 max: 5
 max_exceeded: silent
