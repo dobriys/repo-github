@@ -28,7 +28,7 @@ blueprint:
       default: []
       selector:
         action: {}
-  source_url: https://github.com/AramidX/ha-blueprint/blob/dc4b846bc4dfa8725526606b07c051947bfc9687/blueprints/sonoff/sonoff_snzb01_wireless_switch_z2m.yaml
+  source_url: https://github.com/dobriys/repo-github/blob/master/sonoff_button/sonoff_button.yaml
 mode: restart
 max_exceeded: silent
 trigger:
